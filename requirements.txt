@@ -1,0 +1,21 @@
+# Serial Communication
+pyserial==3.5
+
+# Computer Vision (we'll use these later, but include now)
+opencv-python==4.8.1.78
+mediapipe==0.10.8
+
+# Machine Learning (for future stages)
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# System Control
+pyautogui==0.9.54
+
+# Azure ML (for later stages)
+azureml-core==1.52.0
+azure-storage-blob==12.19.0
+
+# API/Backend (for later)
+flask==3.0.0

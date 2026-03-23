@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data files (we'll commit sample data later, not actual logs)
+data/logs/*.csv
+data/logs/*.json
+
+# Model files (too large for Git)
+models/*.h5
+models/*.pkl
+models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Azure credentials
+.env
+config/secrets.json
+
+# Temporary files
+*.tmp
+*.bak
+~*
