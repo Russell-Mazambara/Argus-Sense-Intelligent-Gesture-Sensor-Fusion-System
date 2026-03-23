@@ -10,6 +10,7 @@
 Argus Sense is an advanced gesture-controlled system that combines hardware sensors, computer vision, and machine learning to enable intuitive human-computer interaction. The system uses sensor fusion to merge ultrasonic distance detection, ambient light sensing, and real-time hand tracking to recognize gestures and control system actions.
 
 ## 🏗️ System Architecture
+
 ```
 Hardware Layer (Arduino)
     ↓
@@ -36,22 +37,27 @@ Azure ML (Training, Deployment, Logging)
 ## 💻 Technology Stack
 
 ### Hardware Interface
+
 - Arduino C++ (sensor data acquisition)
 - PySerial (Arduino ↔ Python communication)
 
 ### Computer Vision
+
 - OpenCV (camera input, preprocessing)
 - MediaPipe (hand tracking, landmark detection)
 
 ### Machine Learning
+
 - TensorFlow/PyTorch (gesture classification)
 - Azure Machine Learning (experiment tracking, model deployment)
 
 ### Backend
+
 - Flask/FastAPI (API endpoints)
 - Azure Functions (serverless deployment)
 
 ## 📁 Project Structure
+
 ```
 argus-sense/
 ├── arduino/
@@ -110,6 +116,7 @@ argus-sense/
 ## 🎓 Learning Objectives
 
 This project demonstrates:
+
 - ✅ Hardware-software integration
 - ✅ Real-time sensor data processing
 - ✅ Computer vision & hand tracking
@@ -121,16 +128,19 @@ This project demonstrates:
 ## 📝 Setup Instructions
 
 ### Prerequisites
+
 - Arduino IDE
 - Python 3.8+
 - Git
 - VS Code (recommended)
 
 ### Installation
+
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/argus-sense.git
-cd argus-sense
+git clone https://github.com/Russell-Mazambara/Argus-Sense-Intelligent-Gesture-Sensor-Fusion-System.git
+
+#cd into main file
 
 # Install Python dependencies
 pip install -r requirements.txt
@@ -140,6 +150,7 @@ pip install -r requirements.txt
 ```
 
 ### Running the System
+
 ```bash
 # Start the application
 python python/main.py
@@ -156,8 +167,8 @@ MIT License - See LICENSE file for details
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+
+- GitHub: [@yourusername](https://github.com/RussellMazambara)
 
 ---
 
