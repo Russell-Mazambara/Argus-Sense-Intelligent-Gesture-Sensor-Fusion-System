@@ -23,8 +23,8 @@ class HandTracker:
     def __init__(
         self,
         max_hands: int = 1,
-        detection_confidence: float = 0.7,
-        tracking_confidence: float = 0.5
+        detection_confidence: float = 0.8,
+        tracking_confidence: float = 0.9
     ):
         """
         Initialize MediaPipe hand tracking.
