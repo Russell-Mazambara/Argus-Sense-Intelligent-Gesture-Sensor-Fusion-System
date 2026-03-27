@@ -123,5 +123,34 @@ class ArduinoReader:
             return None
         
        
+    def set_led(self, r: int, g: int, b: int) -> bool:
+        """
+        Set RGB LED color on Arduino.
+        
+        Args:
+            r: Red value (0-255)
+            g: Green value (0-255)
+            b: Blue value (0-255)
             
+        Returns:
+            bool: True if command sent successfully
+        """
+        if not self._is_connected or self.serial_connection is None:
+            return False
+        
+        try:
+            # Clamp values to 0-255
+            r = max(0, min(255, r))
+            g = max(0, min(255, g))
+            b = max(0, min(255, b))
+            
+            # Send command
+            command = f"LED:{r},{g},{b}\n"
+            self.serial_connection.write(command.encode('utf-8'))
+            
+            return True
+            
+        except Exception as e:
+            print(f"⚠️  Failed to set LED: {e}")
+            return False
             
