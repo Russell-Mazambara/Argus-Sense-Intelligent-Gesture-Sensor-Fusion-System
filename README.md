@@ -166,10 +166,9 @@ MIT License - See LICENSE file for details
 
 ## 👤 Author
 
-**Your Name**
 
-- GitHub: [@yourusername](https://github.com/RussellMazambara)
+- GitHub: (https://github.com/RussellMazambara)
 
 ---
 
-**Built with 🧠 as a portfolio project demonstrating full-stack IoT & ML integration**
+
